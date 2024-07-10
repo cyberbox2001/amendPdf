@@ -63,8 +63,12 @@
     <Compile Include="Spirehelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="08高数 单调有界准则 函数极限定义与性质1 课堂板书.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -36,6 +36,8 @@ namespace amendPdf
                 }
                 var filenewname = DateTime.Now.Ticks.ToString() + ".pdf";
                 var path = Path.GetDirectoryName(filename)+@"\";
+                if(path==@"\")
+                    path =Environment.CurrentDirectory+@"\";
                 pdf.SaveToFile(path+filenewname, FileFormat.PDF);
             }
             catch (Exception ex)
